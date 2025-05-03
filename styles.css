@@ -1,0 +1,432 @@
+/* HERO CSS */
+#herobackground {
+    height: 700px;
+    width: 100%;
+    background-image: url('./images/wp10149767-white-galaxy-wallpapers.jpg'); /* Change to your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  #herosection {
+    width: 1499px;
+    height: 100%;
+    background-color: #B2BCBE;
+    border-radius: 50px;
+  }
+  
+  #navbarmain {
+    margin-top: 20px;
+    border-radius: 70px;
+    background-color: #E8F8D7;
+  }
+  
+  #navcontent {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+  /* ABOUT CSS */
+  #aboutbackground {
+    height: 900px;
+    width: 100%;
+    background-image: url('./images/wp10149767-white-galaxy-wallpapers.jpg'); /* Change to your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  #aboutsection {
+    width: 1499px;
+    height: 98%;
+    background-color: #122023;
+    border-radius: 50px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 40px;
+    margin-top: 70px;
+  }
+  
+  #discovertext {
+    margin-top: 40px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  #button {
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    width: 140px;
+    margin-top: 50px;
+    height: 40px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  #maindiscovertext {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  #overallcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ 
+  
+
+  #aboutone{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  }
+  #onetext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #oneimage{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aboutonetext{
+
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+  }
+
+
+  #twoimage{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+
+  #abouttwo{
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+
+
+
+
+/* PRODUCT CSS */
+
+#productbackground{
+
+    height: 500px;
+    width: 100%;
+    background-image: url('./images/wp10149767-white-galaxy-wallpapers.jpg'); /* Change to your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+
+
+#productsection{
+
+
+    width: 1499px;
+    height: 98%;
+    background-color: #2E443C;
+    border-radius: 50px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#productone{
+    width: 250px;
+    
+}
+#button{
+    border-radius: 100px;
+    width: 200px;
+    height: 40px;
+    border: none;
+margin-top: -3px;
+margin-bottom: 4px;
+margin-right: 50px;
+   
+
+}
+
+
+
+#button {
+  position: relative;
+  background-color: #2E443C;
+  color: white;
+  
+  border: none;
+  font-size: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
+  transition: transform 0.2s ease;
+}
+
+#button::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 215, 0, 0.4) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-20deg);
+  animation: shimmer 3s infinite;
+  z-index: 2;
+  pointer-events: none;
+}
+
+#button span {
+  position: relative;
+  z-index: 3;
+}
+
+@keyframes shimmer {
+  0% {
+    left: -75%;
+  }
+  100% {
+    left: 125%;
+  }
+}
+
+
+
+
+
+#navheading{
+
+
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+  margin-bottom: -10px;
+}
+
+
+
+
+
+#content_container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#twoimage{
+  margin-top: -50px;
+}
+
+
+/* CONTACT CSS */
+
+
+#contactbackground{
+
+  height: 500px;
+  width: 100%;
+  background-image: url('./images/wp10149767-white-galaxy-wallpapers.jpg'); /* Change to your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+
+}
+
+#contactsection{
+
+
+  width: 1000px;
+  height: 98%;
+  background-color: #B2BCBE;
+  border-radius: 50px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+  @media (max-width: 768px) {
+    #overallcontainer {
+      flex-direction: column;
+      text-align: center;
+      margin-left: -50px;
+    }
+  
+    #overallcontainer img {
+      max-width: 80%;
+      margin-top: 20px;
+    }
+  
+    #hero-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    #aboutone,
+    #abouttwo {
+      flex-direction: column !important;
+      align-items: center;
+      text-align: center;
+    }
+  
+    #onetext,
+    #oneimage,
+    #twoimage {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    #aboutone img,
+    #abouttwo img {
+      width: 80%;
+      height: auto;
+    }
+  
+    .aboutonetext {
+      font-size: 1.1rem;
+      line-height: 1.5;
+    }
+
+    #aboutbackground{
+height: 1200px;
+
+    }
+    #productsection{
+      flex-direction: column;
+    }
+    #productbackground{
+      height: 1000px;
+    }
+
+    #hero-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-left: 40px;
+      margin-top: 70px;
+    }
+    .beansbutton{
+      margin-left: 55px;
+
+    }
+    #headphoneimg{
+      margin-left: 45px;
+    }
+  }
+  
